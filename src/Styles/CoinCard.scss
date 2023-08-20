@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   // border : 1px solid red;
+  }
+
+  .coincard {
+    display: inline-block;
+    background-color: #A076F9;
+    width: 25%;
+    padding: 3rem;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+
+
+    
+    &:hover {
+        transform:scale(1.1);
+}
+  
+    @media (max-width: 768px) {
+      width: 50%;
+      margin: 0rem;
+      padding: 0;
+
+    }
+  
+    @media (max-width: 480px) {
+      width: 100%;
+      background-color: #FFECEC;
+      color: #422881;
+    }
+    > img{
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;
+  }
+   > h3,
+  > p {
+    color: white;
+    text-align: center;
+    margin: 5px 0;
+    @media (max-width: 480px) { 
+        color: #422881;
+      }
+    
+  }
+  
+  }
+  
+  
